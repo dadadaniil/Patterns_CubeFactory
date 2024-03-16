@@ -1,28 +1,51 @@
 package edu.pattern.shapes.main;
 
-import edu.pattern.shapes.creator.TriangleFactory;
-import edu.pattern.shapes.creator.impl.TriangleFactoryImpl;
-import edu.pattern.shapes.model.Triangle;
+import edu.pattern.shapes.creator.CoordinateFactory;
+import edu.pattern.shapes.creator.impl.CoordinateFactoryImpl;
+import edu.pattern.shapes.creator.impl.CubeFactoryImpl;
+import edu.pattern.shapes.model.Coordinate;
+import edu.pattern.shapes.model.Cube;
+import edu.pattern.shapes.model.CubeState;
 import edu.pattern.shapes.model.Warehouse;
-
-import java.util.List;
+import edu.pattern.shapes.observer.impl.CubeObserverImpl;
 
 public class Main {
     public static void main(String[] args) {
-        int[][] params = {
-                {4, 5, 6},
-                {1, 1, 7},
-                {8, 9, 9},
-                {7, 5, 4},
+        CoordinateFactory factory = new CoordinateFactoryImpl();
+
+        double[][] coordinatesArray = {
+                {0, 0, 0},
+                {1, 0, 0},
+                {1, 1, 0},
+                {0, 1, 0},
+                {0, 0, 1},
+                {1, 0, 1},
+                {1, 1, 1},
+                {0, 1, 1}
         };
-        TriangleFactory factory = new TriangleFactoryImpl();
-        List<Triangle> result = factory.createTriangles(params);
-        System.out.println(result);
+        Coordinate[] coordinates = factory.createCoordinates(coordinatesArray);
+
+        CubeFactoryImpl cubeFactory = new CubeFactoryImpl();
+        Cube cube = cubeFactory.createCube(coordinates);
+
         Warehouse warehouse = Warehouse.getInstance();
-        Triangle ob = result.get(0);
-        ob.setA(5);
+        CubeObserverImpl updater = new CubeObserverImpl();
+        updater.update(cube);
+
+        double[][] coordinatesArray1 = {
+                {0, 0, 0},
+                {2, 0, 0},
+                {2, 2, 0},
+                {0, 2, 0},
+                {0, 0, 2},
+                {2, 0, 2},
+                {2, 2, 2},
+                {0, 2, 2}
+        };
+
+        Coordinate[] newCoordinates = factory.createCoordinates(coordinatesArray1);
+        cube.setCoordinates(newCoordinates);
         System.out.println(warehouse);
-        ob.setC(8);
-        System.out.println(warehouse);
+
     }
 }

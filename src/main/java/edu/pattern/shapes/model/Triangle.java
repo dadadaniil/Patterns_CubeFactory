@@ -105,6 +105,7 @@ public class Triangle implements Observable {
                 .toString();
     }
 
+
     @Override
     public void attach() {
         observer = new TriangleObserverImpl();

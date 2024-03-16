@@ -15,6 +15,5 @@ public class TriangleObserverImpl implements TriangleObserver {
         int key = triangle.getTriangleId();
         Warehouse warehouse = Warehouse.getInstance();
         warehouse.put(key, perimeter);
-
     }
 }

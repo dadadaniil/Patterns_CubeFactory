@@ -1,0 +1,554 @@
+2024-03-14 15:41:51 INFO  IdGenerator:12 - ID incremented: 1
+2024-03-14 15:44:49 INFO  IdGenerator:12 - ID incremented: 1
+2024-03-14 15:44:49 INFO  CubeState:29 - Invalid cube
+2024-03-14 16:01:01 INFO  IdGenerator:12 - ID incremented: 1
+2024-03-14 16:01:06 INFO  IdGenerator:12 - ID incremented: 1
+2024-03-14 16:03:06 INFO  IdGenerator:17 - Surface area of cube with id 1 is calculated
+2024-03-14 16:03:06 INFO  IdGenerator:17 - Surface area of cube with id 1 is calculated
+2024-03-14 16:13:33 INFO  IdGenerator:31 - Cube with id 1and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:13:33 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:13:33 INFO  IdGenerator:20 - Cube with id 1is updated with points[Ledu.pattern.shapes.model.Coordinate;@4ec6a292 and surface area is 24.0
+2024-03-14 16:13:33 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:13:33 INFO  IdGenerator:20 - Cube with id 1is updated with points[Ledu.pattern.shapes.model.Coordinate;@5ba23b66 and surface area is 6.0
+2024-03-14 16:13:33 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed
+2024-03-14 16:13:59 INFO  IdGenerator:31 - Cube with id 1and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:13:59 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:13:59 INFO  IdGenerator:20 - Cube with id 1is updated with points[Ledu.pattern.shapes.model.Coordinate;@4ec6a292 and surface area is 24.0
+2024-03-14 16:13:59 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:13:59 INFO  IdGenerator:20 - Cube with id 1is updated with points[Ledu.pattern.shapes.model.Coordinate;@5ba23b66 and surface area is 6.0
+2024-03-14 16:13:59 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed
+2024-03-14 16:14:59 INFO  IdGenerator:31 - Cube with id 1and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:14:59 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:14:59 INFO  IdGenerator:20 - Cube with id 1 is updated with points [Ledu.pattern.shapes.model.Coordinate;@4ec6a292 and surface area is 24.0
+2024-03-14 16:14:59 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:14:59 INFO  IdGenerator:20 - Cube with id 1 is updated with points [Ledu.pattern.shapes.model.Coordinate;@5ba23b66 and surface area is 6.0
+2024-03-14 16:14:59 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed
+2024-03-14 16:16:46 INFO  IdGenerator:31 - Cube with id 1and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:16:46 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:16:46 INFO  IdGenerator:20 - Cube with id 1 is updated with points [Ledu.pattern.shapes.model.Coordinate;@4ec6a292 and surface area is 24.0
+2024-03-14 16:16:46 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:16:46 INFO  IdGenerator:20 - Cube with id 1 is updated with points [Ledu.pattern.shapes.model.Coordinate;@5ba23b66 and surface area is 6.0
+2024-03-14 16:16:46 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed with new coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}]
+2024-03-14 16:17:27 INFO  IdGenerator:31 - Cube with id 1and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:17:27 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:17:28 INFO  IdGenerator:20 - Cube with id 1 is updated with points [Ledu.pattern.shapes.model.Coordinate;@4ec6a292 and surface area is 24.0
+2024-03-14 16:17:28 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:17:28 INFO  IdGenerator:20 - Cube with id 1 is updated with points [Ledu.pattern.shapes.model.Coordinate;@5ba23b66 and surface area is 6.0
+2024-03-14 16:17:28 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed with new coordinates[Ledu.pattern.shapes.model.Coordinate;@2ff4f00f
+2024-03-14 16:21:07 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:21:07 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:21:07 INFO  IdGenerator:20 - Cube with id 1 is updated with points [Ledu.pattern.shapes.model.Coordinate;@4ec6a292 and surface area is 24.0
+2024-03-14 16:21:07 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:21:07 INFO  IdGenerator:20 - Cube with id 1 is updated with points [Ledu.pattern.shapes.model.Coordinate;@5ba23b66 and surface area is 6.0
+2024-03-14 16:21:07 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed with new coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}]
+2024-03-14 16:22:13 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:22:13 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:22:13 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:22:13 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:22:13 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:22:13 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed with new coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}]
+2024-03-14 16:23:35 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 16:23:35 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:23:35 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:23:35 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:23:35 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:23:35 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:23:35 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed with new coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}]
+2024-03-14 16:25:42 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 16:25:42 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:25:42 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:25:52 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:25:52 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:25:57 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:25:57 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed with new coordinates [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}]
+2024-03-14 16:27:24 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 16:27:24 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:27:24 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:27:24 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:27:24 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:27:24 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:27:24 INFO  IdGenerator:51 - Coordinates of cube with id 1 is changed with new coordinates [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}]
+2024-03-14 16:29:22 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 16:29:22 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:29:22 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:29:25 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:29:25 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:29:25 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:29:28 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 16:29:28 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:29:28 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:29:28 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:29:28 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:29:28 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:30:26 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 16:30:26 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:30:26 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:30:26 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:30:26 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:30:26 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:30:39 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 16:30:47 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 16:30:47 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:30:47 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=2.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:30:47 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:30:47 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:32:48 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:32:48 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 16:32:48 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:32:48 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:32:48 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:32:48 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:35:27 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:35:27 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 16:35:27 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:35:27 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:35:27 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:35:27 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:37:28 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:37:28 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 16:37:28 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:37:28 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:37:28 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:37:28 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:37:32 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:37:32 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 16:37:32 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:37:32 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:37:32 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:37:32 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:37:44 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:37:44 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 16:37:44 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:37:44 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:37:44 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:37:44 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:38:59 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:38:59 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 16:38:59 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:38:59 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:38:59 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:38:59 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:38:59 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:39:04 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:39:04 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 16:39:04 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:39:04 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:39:04 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:39:04 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:39:04 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:39:21 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:39:21 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 16:39:21 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:39:21 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:44:59 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:44:59 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:44:59 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 16:45:01 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:45:01 INFO  IdGenerator:31 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 16:45:01 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 16:45:01 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 16:45:01 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 16:45:01 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 16:45:01 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-14 17:07:59 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:07:59 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:07:59 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:07:59 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:07:59 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:07:59 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:07:59 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:07:59 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:07:59 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:12:10 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:12:10 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:12:10 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:12:10 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:12:10 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:12:10 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:12:10 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:12:10 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:12:10 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:22:18 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:22:18 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:22:18 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:22:18 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 17:22:18 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 17:22:18 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:22:18 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:22:18 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-14 17:22:18 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 6.0
+2024-03-14 17:22:18 INFO  IdGenerator:22 - Cube with id 2 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}, {x=1.0, y=1.0, z=2.0}] and surface area is 6.0
+2024-03-14 17:22:47 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:22:47 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:22:59 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:22:59 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:26:00 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:26:00 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:26:39 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:26:39 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:26:39 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:26:39 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:26:39 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:26:39 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:26:39 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:26:39 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:26:39 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:30:42 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:30:42 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:30:42 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 17:30:42 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:30:42 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:30:42 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-14 17:30:42 INFO  CubeState:33 - Cube with id 3 is regular
+2024-03-14 17:30:42 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:30:42 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-14 17:30:42 INFO  CubeState:33 - Cube with id 4 is regular
+2024-03-14 17:30:42 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:30:42 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-14 17:33:18 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:33:18 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:33:18 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 17:33:18 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:33:18 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:33:18 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-14 17:33:18 INFO  CubeState:33 - Cube with id 3 is regular
+2024-03-14 17:33:18 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:33:18 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-14 17:33:18 INFO  CubeState:33 - Cube with id 4 is regular
+2024-03-14 17:33:18 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:33:18 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-14 17:33:18 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-14 17:33:18 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:33:18 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-14 17:33:18 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-14 17:33:18 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:33:18 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-14 17:33:18 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-14 17:33:18 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:33:18 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-14 17:33:18 INFO  CubeState:33 - Cube with id 8 is regular
+2024-03-14 17:33:18 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:36:07 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:36:07 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:36:07 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 17:36:07 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:36:07 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:36:07 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-14 17:36:07 INFO  CubeState:33 - Cube with id 3 is regular
+2024-03-14 17:36:07 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:36:07 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-14 17:36:07 INFO  CubeState:33 - Cube with id 4 is regular
+2024-03-14 17:36:07 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:36:07 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-14 17:36:07 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-14 17:36:07 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:36:07 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-14 17:36:07 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-14 17:36:07 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:36:07 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-14 17:36:07 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-14 17:36:07 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:36:07 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-14 17:36:07 INFO  CubeState:33 - Cube with id 8 is regular
+2024-03-14 17:36:07 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:38:02 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:38:02 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:38:02 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 17:38:02 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:38:02 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:38:02 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-14 17:38:02 INFO  CubeState:33 - Cube with id 3 is regular
+2024-03-14 17:38:02 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:38:02 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-14 17:38:02 INFO  CubeState:33 - Cube with id 4 is regular
+2024-03-14 17:38:02 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:38:02 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-14 17:38:02 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-14 17:38:02 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:38:02 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-14 17:38:02 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-14 17:38:02 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:38:02 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-14 17:38:02 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-14 17:38:02 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:38:02 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-14 17:38:02 INFO  CubeState:33 - Cube with id 8 is regular
+2024-03-14 17:38:02 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:45:55 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:45:55 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:45:55 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:45:55 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:45:55 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:45:55 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:45:55 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:45:55 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:45:55 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:46:24 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:46:24 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:46:24 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:46:24 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:46:24 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=3.0, y=0.0, z=0.0}, {x=3.0, y=3.0, z=0.0}, {x=0.0, y=3.0, z=0.0}, {x=0.0, y=0.0, z=3.0}, {x=3.0, y=0.0, z=3.0}, {x=3.0, y=3.0, z=3.0}, {x=0.0, y=3.0, z=3.0}] is created
+2024-03-14 17:46:24 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:46:24 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:46:24 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:46:24 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:46:45 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:46:45 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:46:45 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:46:45 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-14 17:46:45 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=0.0, y=3.0, z=0.0}, {x=3.0, y=3.0, z=0.0}, {x=0.0, y=0.0, z=3.0}, {x=3.0, y=0.0, z=0.0}, {x=3.0, y=3.0, z=3.0}, {x=3.0, y=0.0, z=3.0}, {x=0.0, y=3.0, z=3.0}] is created
+2024-03-14 17:46:45 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-14 17:46:45 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:46:45 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:46:45 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:47:09 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:47:09 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:47:09 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:47:09 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-14 17:47:09 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:47:09 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-14 17:47:09 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:47:09 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:47:09 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:47:19 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:47:19 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:47:19 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-14 17:47:19 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:47:19 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:47:19 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:47:19 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:47:19 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:47:19 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-14 17:48:14 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:48:14 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:48:14 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 17:48:14 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-14 17:48:14 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:48:14 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-14 17:48:14 INFO  CubeState:33 - Cube with id 3 is regular
+2024-03-14 17:48:14 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:48:14 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-14 17:48:14 INFO  CubeState:33 - Cube with id 4 is regular
+2024-03-14 17:48:14 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:48:14 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-14 17:48:14 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-14 17:48:14 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-14 17:48:14 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-14 17:48:14 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-14 17:48:14 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:48:14 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-14 17:48:14 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-14 17:48:14 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:48:14 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-14 17:48:14 INFO  CubeState:33 - Cube with id 8 is regular
+2024-03-14 17:48:14 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-14 17:48:30 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:48:30 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-14 17:48:30 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-14 17:48:30 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-14 17:48:30 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-14 17:48:30 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-14 17:48:30 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-15 12:56:06 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-15 12:56:06 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-15 12:56:06 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 6.0
+2024-03-15 12:56:06 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] and surface area is 6.0
+2024-03-15 12:56:06 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-15 12:56:06 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-15 12:56:06 INFO  IdGenerator:22 - Cube with id 1 is updated with points [{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] and surface area is 24.0
+2024-03-16 08:19:12 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-16 08:19:12 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:19:12 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-16 08:19:12 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-16 08:19:12 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:19:12 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-16 08:19:12 INFO  CubeState:33 - Cube with id 3 is regular
+2024-03-16 08:19:12 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:19:12 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-16 08:19:12 INFO  CubeState:33 - Cube with id 4 is regular
+2024-03-16 08:19:12 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:19:12 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-16 08:19:12 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:19:12 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-16 08:19:12 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:19:12 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-16 08:19:12 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:19:12 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-16 08:19:12 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:19:12 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:19:12 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:19:12 INFO  CubeState:33 - Cube with id 8 is regular
+2024-03-16 08:19:12 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:31:18 INFO  CubeState:33 - Cube with id 1 is regular
+2024-03-16 08:31:18 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:31:18 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-16 08:31:18 INFO  CubeState:33 - Cube with id 2 is regular
+2024-03-16 08:31:18 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:31:18 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-16 08:31:18 INFO  CubeState:33 - Cube with id 3 is regular
+2024-03-16 08:31:18 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:31:18 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-16 08:31:18 INFO  CubeState:33 - Cube with id 4 is regular
+2024-03-16 08:31:18 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:31:18 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-16 08:31:18 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:31:18 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-16 08:31:18 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:31:18 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-16 08:31:18 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:31:18 INFO  CubeState:33 - Cube with id 6 is regular
+2024-03-16 08:31:18 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:31:18 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:31:18 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:31:18 INFO  CubeState:33 - Cube with id 8 is regular
+2024-03-16 08:31:18 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-16 08:35:05 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:35:05 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-16 08:35:05 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:35:05 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-16 08:35:05 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:35:05 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 4 is invalid
+2024-03-16 08:35:05 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:35:05 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:35:05 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:35:05 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:35:05 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:35:05 INFO  CubeState:29 - Cube with id 8 is invalid
+2024-03-16 08:35:05 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:35:41 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-16 08:35:41 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-16 08:35:41 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-16 08:35:41 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-16 08:35:41 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:35:41 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-16 08:35:41 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-16 08:35:41 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:35:41 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-16 08:38:52 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:38:52 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-16 08:38:52 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:38:52 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-16 08:38:52 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:38:52 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 4 is invalid
+2024-03-16 08:38:52 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:38:52 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:38:52 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:38:52 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:38:52 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:38:52 INFO  CubeState:29 - Cube with id 8 is invalid
+2024-03-16 08:38:52 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-16 08:40:00 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:00 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-16 08:40:00 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:00 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-16 08:40:00 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:00 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 4 is invalid
+2024-03-16 08:40:00 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:00 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:40:00 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:40:00 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:40:00 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:40:00 INFO  CubeState:29 - Cube with id 8 is invalid
+2024-03-16 08:40:00 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-16 08:40:25 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:25 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-16 08:40:25 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:25 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-16 08:40:25 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:25 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 4 is invalid
+2024-03-16 08:40:25 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:25 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:40:25 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:40:25 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:40:25 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:40:25 INFO  CubeState:29 - Cube with id 8 is invalid
+2024-03-16 08:40:25 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-16 08:40:57 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:57 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-16 08:40:57 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:57 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-16 08:40:57 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:57 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 4 is invalid
+2024-03-16 08:40:57 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:40:57 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:40:57 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:40:57 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:40:57 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=1.0, y=0.0, z=1.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:40:57 INFO  CubeState:29 - Cube with id 8 is invalid
+2024-03-16 08:40:57 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-16 08:41:26 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:41:26 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 2 is invalid
+2024-03-16 08:41:26 INFO  IdGenerator:32 - Cube with id 2 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:41:26 INFO  IdGenerator:19 - Surface area of cube with id 2 is calculated and is equal to 24.0
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 3 is invalid
+2024-03-16 08:41:26 INFO  IdGenerator:32 - Cube with id 3 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:41:26 INFO  IdGenerator:12 - Volume of cube with id 3 is calculated and is equal to 8.0
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 4 is invalid
+2024-03-16 08:41:26 INFO  IdGenerator:32 - Cube with id 4 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:41:26 INFO  IdGenerator:12 - Volume of cube with id 4 is calculated and is equal to 8.0
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:41:26 INFO  IdGenerator:32 - Cube with id 5 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=1.0}, {x=2.0, y=2.0, z=1.0}, {x=0.0, y=2.0, z=1.0}] is created
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 5 is invalid
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:41:26 INFO  IdGenerator:32 - Cube with id 6 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=0.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=1.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 6 is invalid
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:41:26 INFO  IdGenerator:32 - Cube with id 7 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=2.0}, {x=1.0, y=0.0, z=1.0}, {x=0.0, y=1.0, z=0.0}, {x=0.0, y=0.0, z=1.0}, {x=1.0, y=0.0, z=0.0}, {x=1.0, y=1.0, z=1.0}, {x=0.0, y=1.0, z=1.0}] is created
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 7 is invalid
+2024-03-16 08:41:26 INFO  CubeState:29 - Cube with id 8 is invalid
+2024-03-16 08:41:26 INFO  IdGenerator:32 - Cube with id 8 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=2.0}, {x=2.0, y=2.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:49:48 INFO  CubeState:29 - Cube with id 1 is invalid
+2024-03-16 08:49:48 INFO  IdGenerator:32 - Cube with id 1 and coordinates[{x=0.0, y=0.0, z=0.0}, {x=2.0, y=2.0, z=2.0}, {x=2.0, y=2.0, z=0.0}, {x=0.0, y=0.0, z=2.0}, {x=2.0, y=0.0, z=0.0}, {x=0.0, y=2.0, z=0.0}, {x=2.0, y=0.0, z=2.0}, {x=0.0, y=2.0, z=2.0}] is created
+2024-03-16 08:49:48 INFO  IdGenerator:19 - Surface area of cube with id 1 is calculated and is equal to 24.0
