@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.StringJoiner;
 
 public class Cube implements Observable {
-    private static final Logger logger = Logger.getLogger(IdGenerator.class);
+    private static final Logger logger = Logger.getLogger(Cube.class);
 
     private Coordinate[] coordinates;
 
@@ -50,7 +50,6 @@ public class Cube implements Observable {
         this.coordinates = CoordinateService.sortCoordinates(coordinates);
         this.state = CubeState.detect(this);
         notifyObservers();
-//        logger.info("Coordinates of cube with id " + id + " is changed with new coordinates " + Arrays.toString(coordinates));
     }
 
     public CubeState getState() {
