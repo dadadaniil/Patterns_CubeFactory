@@ -24,7 +24,6 @@ public class Cube implements Observable {
     public Cube(Coordinate[] coordinates) {
         if (coordinates.length != 8) {
             throw new IllegalArgumentException("A cube must have 8 coordinates");
-            // TO DO
         }
         this.coordinates = CoordinateService.sortCoordinates(coordinates);
         this.id = IdGenerator.increment();

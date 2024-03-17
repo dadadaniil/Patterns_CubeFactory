@@ -28,38 +28,38 @@ public class CubeFactoryImpl implements CubeFactory {
         return cubes;
     }
 
-@Override
-public List<Cube> createCubesFromFile(String filePath) {
-    List<Cube> cubes = new ArrayList<>();
-    try (Stream<String> lines = Files.lines(Paths.get(getClass().getResource(filePath).toURI()))) {
-        lines.forEach(line -> {
-            String[] stringCoordinates = line.split(";");
-            if (stringCoordinates.length == 8) {
-                Coordinate[] coordinates = new Coordinate[8];
-                for (int i = 0; i < 8; i++) {
-                    String[] xyz = stringCoordinates[i].split(",");
-                    if (xyz.length == 3) {
-                        try {
-                            double x = Double.parseDouble(xyz[0]);
-                            double y = Double.parseDouble(xyz[1]);
-                            double z = Double.parseDouble(xyz[2]);
-                            coordinates[i] = new Coordinate(x, y, z);
-                        } catch (NumberFormatException e) {
-                            // Handle the exception
+    @Override
+    public List<Cube> createCubesFromFile(String filePath) {
+        List<Cube> cubes = new ArrayList<>();
+        try (Stream<String> lines = Files.lines(Paths.get(getClass().getResource(filePath).toURI()))) {
+            lines.forEach(line -> {
+                String[] stringCoordinates = line.split(";");
+                if (stringCoordinates.length == 8) {
+                    Coordinate[] coordinates = new Coordinate[8];
+                    for (int i = 0; i < 8; i++) {
+                        String[] xyz = stringCoordinates[i].split(",");
+                        if (xyz.length == 3) {
+                            try {
+                                double x = Double.parseDouble(xyz[0]);
+                                double y = Double.parseDouble(xyz[1]);
+                                double z = Double.parseDouble(xyz[2]);
+                                coordinates[i] = new Coordinate(x, y, z);
+                            } catch (NumberFormatException e) {
+                                // chill
+                            }
                         }
                     }
+                    Cube cube = createCube(coordinates);
+                    if (CubeState.detect(cube.getCoordinates()) == CubeState.REGULAR) {
+                        cubes.add(cube);
+                    }
                 }
-                Cube cube = createCube(coordinates);
-                if (CubeState.detect(cube.getCoordinates()) == CubeState.REGULAR) {
-                    cubes.add(cube);
-                }
-            }
-        });
-    } catch (Exception e) {
-//        e.printStackTrace();
+            });
+        } catch (Exception e) {
+          //chill;
+        }
+        return cubes;
     }
-    return cubes;
-}
 
 }
 
