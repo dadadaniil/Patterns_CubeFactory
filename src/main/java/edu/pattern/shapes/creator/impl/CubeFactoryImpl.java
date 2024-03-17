@@ -28,36 +28,38 @@ public class CubeFactoryImpl implements CubeFactory {
         return cubes;
     }
 
-    @Override
-    public List<double[][]> createCubesFromFile(String filePath) {
-        List<double[][]> validCoordinates = new ArrayList<>();
-        try (Stream<String> lines = Files.lines(Paths.get(getClass().getResource(filePath).toURI()))) {
-            lines.forEach(line -> {
-                String[] stringCoordinates = line.split(";");
-                if (stringCoordinates.length == 8) {
-                    double[][] coordinates = new double[8][3];
-                    for (int i = 0; i < 8; i++) {
-                        String[] xyz = stringCoordinates[i].split(",");
-                        if (xyz.length == 3) {
-                            try {
-                                coordinates[i][0] = Double.parseDouble(xyz[0]);
-                                coordinates[i][1] = Double.parseDouble(xyz[1]);
-                                coordinates[i][2] = Double.parseDouble(xyz[2]);
-                                if (CubeState.detect(coordinates) == CubeState.REGULAR) {
-                                    validCoordinates.add(coordinates);
-                                }
-                            } catch (NumberFormatException e) {
-
-                            }
+@Override
+public List<Cube> createCubesFromFile(String filePath) {
+    List<Cube> cubes = new ArrayList<>();
+    try (Stream<String> lines = Files.lines(Paths.get(getClass().getResource(filePath).toURI()))) {
+        lines.forEach(line -> {
+            String[] stringCoordinates = line.split(";");
+            if (stringCoordinates.length == 8) {
+                Coordinate[] coordinates = new Coordinate[8];
+                for (int i = 0; i < 8; i++) {
+                    String[] xyz = stringCoordinates[i].split(",");
+                    if (xyz.length == 3) {
+                        try {
+                            double x = Double.parseDouble(xyz[0]);
+                            double y = Double.parseDouble(xyz[1]);
+                            double z = Double.parseDouble(xyz[2]);
+                            coordinates[i] = new Coordinate(x, y, z);
+                        } catch (NumberFormatException e) {
+                            // Handle the exception
                         }
                     }
                 }
-            });
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return validCoordinates;
+                Cube cube = createCube(coordinates);
+                if (CubeState.detect(cube.getCoordinates()) == CubeState.REGULAR) {
+                    cubes.add(cube);
+                }
+            }
+        });
+    } catch (Exception e) {
+//        e.printStackTrace();
     }
+    return cubes;
+}
 
 }
 

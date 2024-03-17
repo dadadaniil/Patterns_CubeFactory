@@ -10,6 +10,6 @@ public interface CubeFactory {
     Cube createCube(Coordinate[] coordinates);
 
     List<Cube> createCubes(List<Coordinate[]> coordinates);
-    List<double[][]> createCubesFromFile(String filePath);
+    List<Cube> createCubesFromFile(String filePath);
 
 }

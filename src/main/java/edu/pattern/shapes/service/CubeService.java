@@ -5,7 +5,7 @@ import edu.pattern.shapes.util.IdGenerator;
 import org.apache.log4j.Logger;
 
 public class CubeService {
-    private static final Logger logger = Logger.getLogger(IdGenerator.class);
+    private static final Logger logger = Logger.getLogger(CubeService.class);
 
     public double volume(Cube cube) {
         double pow = Math.pow(cube.getSideLength(), 3);
