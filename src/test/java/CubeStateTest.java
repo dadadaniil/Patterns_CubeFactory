@@ -1,6 +1,3 @@
-package test;
-
-
 import edu.pattern.shapes.creator.impl.CoordinateFactoryImpl;
 import edu.pattern.shapes.model.Cube;
 import edu.pattern.shapes.model.CubeState;
@@ -11,16 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CubeStateTest {
 
     CoordinateFactoryImpl factory = new CoordinateFactoryImpl();
-    private double[][] firstSetOfCoordinates = {
-            {0, 0, 0},
-            {1, 0, 0},
-            {1, 1, 0},
-            {0, 1, 0},
-            {0, 0, 1},
-            {1, 0, 1},
-            {1, 1, 1},
-            {0, 1, 1}
-    };
     double[][] secondSetCoordinates = {
             {0, 0, 0},
             {1, 1, 2},
@@ -40,6 +27,16 @@ public class CubeStateTest {
             {2, 0, 1},
             {2, 2, 1},
             {0, 2, 1}
+    };
+    private double[][] firstSetOfCoordinates = {
+            {0, 0, 0},
+            {1, 0, 0},
+            {1, 1, 0},
+            {0, 1, 0},
+            {0, 0, 1},
+            {1, 0, 1},
+            {1, 1, 1},
+            {0, 1, 1}
     };
 
     @Test

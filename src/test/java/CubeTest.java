@@ -1,5 +1,3 @@
-package test;
-
 import edu.pattern.shapes.creator.impl.CoordinateFactoryImpl;
 import edu.pattern.shapes.model.Cube;
 import org.junit.jupiter.api.Test;

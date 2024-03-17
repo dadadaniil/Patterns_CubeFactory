@@ -1,5 +1,6 @@
 package edu.pattern.shapes.model;
 
+import edu.pattern.shapes.creator.impl.CoordinateFactoryImpl;
 import org.apache.log4j.Logger;
 
 import java.util.ArrayList;
@@ -16,11 +17,9 @@ public enum CubeState {
     REGULAR, INVALID;
     private static final Logger logger = Logger.getLogger(CubeState.class);
 
-
-    public static CubeState detect(Cube cube) {
-        Coordinate[] coordinates = cube.getCoordinates();
+    public static CubeState detect(Coordinate[] coordinates) {
         if (coordinates == null || coordinates.length != 8) {
-            return CubeState.INVALID;
+            throw new IllegalArgumentException("A cube must have 8 coordinates");
         }
 
         List<Double> distances = new ArrayList<>();
@@ -40,13 +39,31 @@ public enum CubeState {
 
             boolean validCube = distanceCounts.values().containsAll(Arrays.asList(12, 12, 4));
             if (validCube) {
-                logger.info("Cube with id " + cube.getId() + " is regular");
                 return CubeState.REGULAR;
             } else {
-                logger.info("Cube with id " + cube.getId() + " is invalid");
                 return CubeState.INVALID;
             }
         } else {
+            return CubeState.INVALID;
+        }
+    }
+
+    public static CubeState detect(double[][] coordinates) {
+        if (coordinates == null || coordinates.length != 8) {
+            throw new IllegalArgumentException("A cube must have 8 coordinates");
+        }
+        CoordinateFactoryImpl coordinateFactory = new CoordinateFactoryImpl();
+        return detect(coordinateFactory.createCoordinates(coordinates));
+    }
+
+
+    public static CubeState detect(Cube cube) {
+        CubeState state = detect(cube.getCoordinates());
+        if (state == CubeState.REGULAR) {
+            logger.info("Cube with id " + cube.getId() + " is regular");
+            return CubeState.REGULAR;
+        } else {
+            logger.info("Cube with id " + cube.getId() + " is invalid");
             return CubeState.INVALID;
         }
     }

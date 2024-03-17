@@ -1,5 +1,3 @@
-package test;
-
 import edu.pattern.shapes.model.Coordinate;
 import edu.pattern.shapes.service.CoordinateService;
 import org.apache.log4j.Logger;
@@ -14,18 +12,15 @@ public class CoordinateServiceTest {
 
     @Test
     public void testSortCoordinates() {
-        System.out.println("sujkdifhggks");
         Coordinate[] coordinates = new Coordinate[]{
                 new Coordinate(1, 1, 3),
                 new Coordinate(2, 2, 2),
                 new Coordinate(3, 3, 1)
         };
-        logger.info("а где?");
-        logger.info("а где?");
         Coordinate[] sortedCoordinates = CoordinateService.sortCoordinates(coordinates);
         double x = sortedCoordinates[1].getX();
         double x1 = sortedCoordinates[2].getX();
-        assertTrue(true);
+        assertTrue(x < x1);
     }
 
     @Test
