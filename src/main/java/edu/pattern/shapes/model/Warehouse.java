@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.StringJoiner;
 
 public class Warehouse {
-    private static Warehouse instance = new Warehouse();
-    private HashMap<Integer, Double> map = new HashMap<>();
+    private static final Warehouse instance = new Warehouse();
+    private final HashMap<Integer, Double> map = new HashMap<>();
 
     private Warehouse() {
     }
@@ -25,7 +25,7 @@ public class Warehouse {
     @Override
     public String toString() {
         return new StringJoiner(", ", Warehouse.class.getSimpleName() + "[", "]")
-                .add("map=" + map)
-                .toString();
+            .add("map=" + map)
+            .toString();
     }
 }
