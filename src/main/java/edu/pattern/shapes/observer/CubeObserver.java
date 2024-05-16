@@ -4,5 +4,4 @@ import edu.pattern.shapes.model.Cube;
 
 public interface CubeObserver {
     void update(Cube cube);
-
 }

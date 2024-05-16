@@ -1,4 +1,5 @@
 import edu.pattern.shapes.creator.impl.CubeFactoryImpl;
+import edu.pattern.shapes.exception.InvalidCubeDataException;
 import edu.pattern.shapes.model.Cube;
 import org.junit.jupiter.api.Test;
 
@@ -9,14 +10,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CubeFactoryImplTest {
     @Test
-    public void createWrongCubesFromFile() {
+    public void createWrongCubesFromFile() throws InvalidCubeDataException {
         CubeFactoryImpl cubeFactory = new CubeFactoryImpl();
         List<Cube> cubes = cubeFactory.createCubesFromFile("/wrongCubes.txt");
         assertTrue(cubes.isEmpty());
     }
 
     @Test
-    public void createCubesFromFile() {
+    public void createCubesFromFile() throws InvalidCubeDataException {
         CubeFactoryImpl cubeFactory = new CubeFactoryImpl();
         List<Cube> cubes = cubeFactory.createCubesFromFile("/rightCubes.txt");
         assertEquals(10, cubes.size());

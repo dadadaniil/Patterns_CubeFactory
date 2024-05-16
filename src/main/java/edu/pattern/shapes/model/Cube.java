@@ -1,28 +1,29 @@
 package edu.pattern.shapes.model;
 
-import edu.pattern.shapes.creator.impl.CoordinateFactoryImpl;
 import edu.pattern.shapes.observer.CubeObserver;
 import edu.pattern.shapes.observer.Observable;
 import edu.pattern.shapes.observer.impl.CubeObserverImpl;
 import edu.pattern.shapes.service.CoordinateService;
 import edu.pattern.shapes.util.IdGenerator;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
 import java.util.StringJoiner;
 
 public class Cube implements Observable {
-    private static final Logger logger = Logger.getLogger(Cube.class);
+    private final static Logger logger = LogManager.getLogger();
+    private static final int NUMBER_OF_CUBE_COORDINATES = 8;
+    private static final String CUBE_COORDINATES_ERROR = "A cube must have 8 coordinates";
 
-    private Coordinate[] coordinates;
-
-    private CubeObserver observer = new CubeObserverImpl();
     private int id;
-
+    private Coordinate[] coordinates;
     private CubeState state;
+    private CubeObserver observer = new CubeObserverImpl();
 
     public Cube(Coordinate[] coordinates) {
-        if (coordinates.length != 8) {
+        if (coordinates.length != NUMBER_OF_CUBE_COORDINATES) {
+            logger.error(CUBE_COORDINATES_ERROR);
             throw new IllegalArgumentException("A cube must have 8 coordinates");
         }
         this.coordinates = CoordinateService.sortCoordinates(coordinates);
@@ -72,20 +73,20 @@ public class Cube implements Observable {
     }
 
     @Override
-    public String toString() {
-        return new StringJoiner(", ", Cube.class.getSimpleName() + "[", "]")
-                .add("id=" + id)
-                .add("coordinates=" + Arrays.toString(coordinates))
-                .add("state=" + state)
-                .toString();
-    }
-
-    @Override
     public int hashCode() {
         int result = id;
         result = 31 * result + Arrays.hashCode(coordinates);
         result = 31 * result + (state != null ? state.hashCode() : 0);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return new StringJoiner(", ", Cube.class.getSimpleName() + "[", "]")
+            .add("id=" + id)
+            .add("coordinates=" + Arrays.toString(coordinates))
+            .add("state=" + state)
+            .toString();
     }
 
     @Override

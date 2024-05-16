@@ -1,22 +1,27 @@
 package edu.pattern.shapes.creator.impl;
 
 import edu.pattern.shapes.creator.CubeFactory;
+import edu.pattern.shapes.exception.InvalidCubeDataException;
 import edu.pattern.shapes.model.Coordinate;
 import edu.pattern.shapes.model.Cube;
 import edu.pattern.shapes.model.CubeState;
+import edu.pattern.shapes.util.FileReader;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 public class CubeFactoryImpl implements CubeFactory {
+    private final static Logger logger = LogManager.getLogger();
+    private final FileReader fileReader = new FileReader();
+    private final CoordinateFactoryImpl coordinateFactory = new CoordinateFactoryImpl();
 
     @Override
     public Cube createCube(Coordinate[] coordinates) {
-        Cube cube = new Cube(coordinates);
-        return cube;
+        return new Cube(coordinates);
     }
 
     @Override
@@ -29,36 +34,32 @@ public class CubeFactoryImpl implements CubeFactory {
     }
 
     @Override
-    public List<Cube> createCubesFromFile(String filePath) {
+    public List<Cube> createCubesFromFile(String filePath) throws InvalidCubeDataException {
         List<Cube> cubes = new ArrayList<>();
-        try (Stream<String> lines = Files.lines(Paths.get(getClass().getResource(filePath).toURI()))) {
-            lines.forEach(line -> {
-                String[] stringCoordinates = line.split(";");
-                if (stringCoordinates.length == 8) {
-                    Coordinate[] coordinates = new Coordinate[8];
-                    for (int i = 0; i < 8; i++) {
-                        String[] xyz = stringCoordinates[i].split(",");
-                        if (xyz.length == 3) {
-                            try {
-                                double x = Double.parseDouble(xyz[0]);
-                                double y = Double.parseDouble(xyz[1]);
-                                double z = Double.parseDouble(xyz[2]);
-                                coordinates[i] = new Coordinate(x, y, z);
-                            } catch (NumberFormatException e) {
-                                // chill
-                            }
-                        }
-                    }
-                    Cube cube = createCube(coordinates);
-                    if (CubeState.detect(cube.getCoordinates()) == CubeState.REGULAR) {
-                        cubes.add(cube);
-                    }
+        try {
+            fileReader.readLines(filePath).forEach(line -> {
+                Coordinate[] coordinates = coordinateFactory.createCoordinates(line);
+                Cube cube = createAndValidateCube(coordinates);
+                if (cube != null) {
+                    cubes.add(cube);
                 }
             });
-        } catch (Exception e) {
-          //chill;
+        } catch (IOException | URISyntaxException | NumberFormatException e) {
+            throw new InvalidCubeDataException("Invalid cube coordinates");
         }
         return cubes;
+    }
+
+    public Cube createAndValidateCube(Coordinate[] coordinates) {
+        try {
+            Cube cube = createCube(coordinates);
+            if (CubeState.detect(cube.getCoordinates()) == CubeState.REGULAR) {
+                return cube;
+            }
+        } catch (IllegalArgumentException e) {
+            logger.error("Invalid cube coordinates");
+        }
+        return null;
     }
 
 }

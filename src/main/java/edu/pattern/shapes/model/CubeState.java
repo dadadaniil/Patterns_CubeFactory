@@ -1,24 +1,24 @@
 package edu.pattern.shapes.model;
 
 import edu.pattern.shapes.creator.impl.CoordinateFactoryImpl;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 import static edu.pattern.shapes.service.CoordinateService.distanceBetweenCoordinates;
 
 public enum CubeState {
     REGULAR, INVALID;
-    private static final Logger logger = Logger.getLogger(CubeState.class);
+    private static final int AMOUNT_OF_CUBE_SIDES = 8;
+    private static final int UNIQUE_VALUES_AMOUNT = 3;
+    private static final int UNIQUE_DIAGONALS_AMOUNT = 12;
+    private static final int UNIQUE_SIDES_AMOUNT = 12;
+    private final static Logger logger = LogManager.getLogger();
+    private static final int SQUARE_SIDES_AMOUNT = 4;
 
     public static CubeState detect(Coordinate[] coordinates) {
-        if (coordinates == null || coordinates.length != 8) {
+        if (coordinates == null || coordinates.length != AMOUNT_OF_CUBE_SIDES) {
             throw new IllegalArgumentException("A cube must have 8 coordinates");
         }
 
@@ -31,25 +31,23 @@ public enum CubeState {
         }
 
         Set<Double> uniqueDistances = new HashSet<>(distances);
-        if (uniqueDistances.size() == 3) {
+        if (uniqueDistances.size() == UNIQUE_VALUES_AMOUNT) {
             Map<Double, Integer> distanceCounts = new HashMap<>();
             for (double distance : distances) {
                 distanceCounts.put(distance, distanceCounts.getOrDefault(distance, 0) + 1);
             }
 
-            boolean validCube = distanceCounts.values().containsAll(Arrays.asList(12, 12, 4));
-            if (validCube) {
-                return CubeState.REGULAR;
-            } else {
-                return CubeState.INVALID;
-            }
+            boolean validCube = distanceCounts.values()
+                .containsAll(Arrays.asList(UNIQUE_DIAGONALS_AMOUNT, UNIQUE_SIDES_AMOUNT, SQUARE_SIDES_AMOUNT));
+
+            return validCube ? CubeState.REGULAR : CubeState.INVALID;
         } else {
             return CubeState.INVALID;
         }
     }
 
     public static CubeState detect(double[][] coordinates) {
-        if (coordinates == null || coordinates.length != 8) {
+        if (coordinates == null || coordinates.length != AMOUNT_OF_CUBE_SIDES) {
             throw new IllegalArgumentException("A cube must have 8 coordinates");
         }
         CoordinateFactoryImpl coordinateFactory = new CoordinateFactoryImpl();

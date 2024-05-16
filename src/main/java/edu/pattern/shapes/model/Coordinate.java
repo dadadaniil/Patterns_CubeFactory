@@ -27,23 +27,34 @@ public class Coordinate {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null || getClass() != obj.getClass()) {
-            return false;
-        }
-        Coordinate coordinate = (Coordinate) obj;
-        return Double.compare(coordinate.x, x) == 0 && Double.compare(coordinate.y, y) == 0 && Double.compare(coordinate.z, z) == 0;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Coordinate that)) return false;
+
+        if (Double.compare(getX(), that.getX()) != 0) return false;
+        if (Double.compare(getY(), that.getY()) != 0) return false;
+        return Double.compare(getZ(), that.getZ()) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        temp = Double.doubleToLongBits(getX());
+        result = (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(getY());
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(getZ());
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
     }
 
     @Override
     public String toString() {
-        return "{" +
-                "x=" + x +
-                ", y=" + y +
-                ", z=" + z +
-                '}';
+        return "Coordinate{" +
+            "x=" + x +
+            ", y=" + y +
+            ", z=" + z +
+            '}';
     }
 }
